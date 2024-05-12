@@ -1,34 +1,49 @@
-html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #grey {
-    background: grey;
-  }
-  
-  #white {
-    background: white;
-  }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.color-buttons {
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#grey {
+  background-color: #808080;
+  color: #fff;
+}
+
+#white {
+  background-color: #fff;
+  color: #333;
+}
+
+#blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#yellow {
+  background-color: #ffc107;
+  color: #333;
+}
